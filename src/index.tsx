@@ -1,4 +1,3 @@
-import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
@@ -6,7 +5,7 @@ import reportWebVitals from './reportWebVitals';
 
 import { Provider } from 'react-redux';
 
-import { ThemeProvider } from '@material-ui/core/styles';
+import { ThemeProvider } from '@mui/material/styles';
 import { ConfirmProvider } from 'material-ui-confirm';
 
 import { makeStore } from './reactrestapi/dist/store/createstore';
